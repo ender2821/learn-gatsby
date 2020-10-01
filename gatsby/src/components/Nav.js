@@ -19,6 +19,7 @@ const NavStyles = styled.nav`
     text-align: center;
     list-style: none;
     align-items: center;
+    margin-top: -6rem;
   }
 
   li {
@@ -50,6 +51,11 @@ const NavStyles = styled.nav`
     &:hover {
       color: var(--red);
     }
+
+    /* anchor links that match the url will get this data attribute so can style them accordingly */
+    /* &[aria-current='page'] {
+      color: var(--red);
+    } */
   }
 `;
 
